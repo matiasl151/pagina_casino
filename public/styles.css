@@ -85,7 +85,7 @@ body {
     }
 
     .casino-link, .whatsapp-link {
-        width: 70%; /* Adjust width as needed */
+        width: 100%; /* Adjust width as needed */
         margin: 10px 0; /* Adjust margin for spacing */
     }
 
