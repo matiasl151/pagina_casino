@@ -1,0 +1,77 @@
+body {
+    background-color: #2e2e2e;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.casino-container {
+    text-align: center;
+}
+
+.casino-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d4af37; /* Gold color */
+    border: 2px solid #b8860b; /* Darker gold for border */
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.casino-link img {
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+
+.casino-link:hover {
+    background-color: #ffd700; /* Brighter gold on hover */
+    color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-link img {
+    display: block;
+    width: 50px; /* Smaller size */
+    height: auto;
+}
+
+.whatsapp-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.casino-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e2e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.casino-footer img {
+    width: 200px;
+    height: auto;
+}

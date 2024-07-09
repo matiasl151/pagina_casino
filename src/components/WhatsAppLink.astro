@@ -1,0 +1,8 @@
+---
+const { src, alt } = Astro.props;
+const whatsappNumber = import.meta.env.WHATSAPP_NUMBER;
+const whatsappLink = `https://wa.me/${whatsappNumber}`
+---
+<a href={whatsappLink} class="whatsapp-link">
+    <img src={src} alt={alt}>
+</a>
