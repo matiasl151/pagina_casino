@@ -1,4 +1,5 @@
 ---
+import Carousel from "../components/Carousel.astro"
 import CasinoLink from "../components/CasinoLink.astro"
 import WhatsAppLink from "../components/WhatsAppLink.astro"
 ---
@@ -12,12 +13,17 @@ import WhatsAppLink from "../components/WhatsAppLink.astro"
 		<title>Diversion Asegurada</title>
 	</head>
 	<body>
+		<div class="carousel-container">
+			<Carousel />
+		</div>
 		<div class="casino-container">
 			<CasinoLink href="https://superbet.pro/" src="/1.png" alt="Superbet"/>
 			<WhatsAppLink src="/logo_whatsapp.png" alt="Whatsapp"/>
 			<CasinoLink href="https://ganamos.bet/home" src="/2.png" alt="Ganamos"/>
+		</div>
 		<footer class="casino-footer">
 			<img src="/LOGO_NUESTRO.png" alt="logonuestro">
 		</footer>
 	</body>
+	<script src="/scripts.js" is:inline></script>
 </html>
